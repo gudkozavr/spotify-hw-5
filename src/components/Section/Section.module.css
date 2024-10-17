@@ -1,0 +1,17 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 31px;
+  padding: 111px 0;
+}
+.content > h1 {
+  font-size: 64px;
+  letter-spacing: 2px;
+}
+.content > h3 {
+  font-size: 38px;
+  letter-spacing: 2px;
+  text-align: center;
+}
