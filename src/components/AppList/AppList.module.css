@@ -17,3 +17,37 @@ svg:hover {
   bottom: 26px;
   fill: #1181f1;
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 30px 40px;
+    gap: 15px;
+  }
+
+  svg {
+    width: 80px;
+    height: 80px;
+    padding-left: 5px;
+  }
+
+  svg:hover {
+    bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 20px 30px;
+    gap: 10px;
+  }
+
+  svg {
+    width: 70px;
+    height: 70px;
+    padding-left: 3px;
+  }
+
+  svg:hover {
+    bottom: 15px;
+  }
+}
